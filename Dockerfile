@@ -5,7 +5,7 @@ MAINTAINER ishiidaichi
 # necessary tools
 RUN apt-get upgrade -y
 RUN apt-get update -y
-RUN apt-get install build-essential libc6 libpcre3 libpcre3-dev libpcrecpp0v5 libssl-dev
+RUN apt-get install -y build-essential libc6 libpcre3 libpcre3-dev libpcrecpp0v5 libssl-dev
 
 #php5.6 install
 RUN apt-get install -y software-properties-common
